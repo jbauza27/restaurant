@@ -1,0 +1,49 @@
+* {
+  font-family: ubuntu, sans-serif;
+  font-size: 16px;  
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.alin-cen {
+  padding-top: 20px;  
+}
+
+.ancho_60 {
+  width: 60%;
+  display: inline;
+  border-color: #9f9b9b;
+}
+
+.ancho_30 {
+  width: 30%;
+  display: inline;
+  border-color: #9f9b9b;
+}
+
+/* para centrar la barra de navegación */
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+  }
+}
+
+#logo1 {
+  float: right;
+}
+
+#logo2 {
+  float: left;
+}
